@@ -47,7 +47,7 @@ var (
 	// Git SHA1 commit hash of the release (set via linker flags)
 	gitCommit = ""
 	// Ethereum address of the Geth release oracle.
-	relOracle = common.HexToAddress("0x659aa6ac0239e52644ae0e3cd376cccc582ff9a3")
+	relOracle = common.HexToAddress("0x3ae97ba4a2be8cc866288bda67f95cc573c417fe")
 	// The app that holds all commands and flags.
 	app = utils.NewApp(gitCommit, "the go-ethereum command line interface")
 	// flags that configure the node
